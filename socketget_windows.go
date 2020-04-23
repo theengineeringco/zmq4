@@ -4,6 +4,7 @@ package zmq4
 
 /*
 #include <zmq.h>
+#include <winsock2.h>
 */
 import "C"
 
