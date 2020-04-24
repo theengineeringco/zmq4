@@ -5,6 +5,8 @@ package zmq4
 /*
 #include <zmq.h>
 #include <winsock2.h>
+#cgo CFLAGS: -I.
+#cgo LDFLAGS: -L. -lzmq
 */
 import "C"
 
